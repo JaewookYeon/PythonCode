@@ -1,5 +1,5 @@
 import random
-
+import art
 def hard_game():
     attempts = 5
     random_num = random.randint(1,100)
@@ -52,7 +52,7 @@ def easy_game():
                     print('Too high')
                 print('''You've run out of guesses, you lose.''')
                 is_game_over = True
-
+print(art.logo)
 print('Welcome to the Number Guessing Game!')
 print('''I'm am thinking of a number between 1 and 100.''')
 difficulty = input('''Choose a difficulty. Type 'easy' or 'hard': ''')
